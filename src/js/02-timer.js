@@ -1,16 +1,16 @@
 import flatpickr from 'flatpickr';
-import "flatpickr/dist/flatpickr.min.css";
+import 'flatpickr/dist/flatpickr.min.css';
 import Notiflix from 'notiflix';
 
 const refs = {
-    textEl: document.querySelector('#datetime-picker'),
-    timerHtmlEl: document.querySelector('.timer'),
-    btnStartEl: document.querySelector('button[data-start]'),
-    daysEl: document.querySelector('span[data-days]'),
-    hoursEl: document.querySelector('span[data-hours]'),
-    minutesEl: document.querySelector('span[data-minutes]'),
-    secondsEl: document.querySelector('span[data-seconds]'),
-}
+  textEl: document.querySelector('#datetime-picker'),
+  timerHtmlEl: document.querySelector('.timer'),
+  btnStartEl: document.querySelector('button[data-start]'),
+  daysEl: document.querySelector('span[data-days]'),
+  hoursEl: document.querySelector('span[data-hours]'),
+  minutesEl: document.querySelector('span[data-minutes]'),
+  secondsEl: document.querySelector('span[data-seconds]'),
+};
 
 refs.btnStartEl.disabled = true;
 

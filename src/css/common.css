@@ -47,9 +47,9 @@ button:focus {
 
 button:disabled,
 button[disabled] {
-  border: 1px solid #999999;
-  background-color: #CCDDF1;
+  background-color: #E2E8EE;
   color: #666666;
+  box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.15);
   cursor: auto;
 }
 
