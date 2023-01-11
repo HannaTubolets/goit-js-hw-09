@@ -26,11 +26,29 @@ img {
 
 button {
   font-size: 18px;
-  font-weight: 600;
-  padding: 2 24;
+  font-weight: 500;
+  padding: 4 24;
   border-radius: 8px;
+  border: 0px;
   margin-left: 16px;
+  background-color: #266B06;
+  color: #fafafa;
+  cursor: pointer;
 }
+
+button:hover,
+:focus {
+  background-color: #5CAE35;
+}
+
+button:disabled,
+button[disabled] {
+  border: 1px solid #999999;
+  background-color: #C8D8C1;
+  color: #666666;
+  cursor: auto;
+}
+
 
 .timer {
   display: flex;
