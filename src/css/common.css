@@ -31,20 +31,20 @@ button {
   border-radius: 8px;
   border: 0px;
   margin-left: 16px;
-  background-color: #266B06;
+  background-color: #175AA8;
   color: #fafafa;
   cursor: pointer;
 }
 
 button:hover,
-:focus {
-  background-color: #5CAE35;
+button:focus {
+  background-color: #2A75CC;
 }
 
 button:disabled,
 button[disabled] {
   border: 1px solid #999999;
-  background-color: #C8D8C1;
+  background-color: #CCDDF1;
   color: #666666;
   cursor: auto;
 }
@@ -68,5 +68,6 @@ button[disabled] {
 
 .label {
   font-weight: bold;
-  text-transform: uppercase;
+  color: #175AA8;
+  font-size: 18px;
 }
