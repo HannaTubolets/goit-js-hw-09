@@ -12,14 +12,6 @@ const refs = {
     secondsEl: document.querySelector('span[data-seconds]'),
 }
 
-// const textEl = document.querySelector('#datetime-picker');
-// const timerHtmlEl = document.querySelector('.timer');
-// const btnStartEl = document.querySelector('button[data-start]');
-// const secondsEl = document.querySelector('span[data-seconds]');
-// const minutesEl = document.querySelector('span[data-minutes]');
-// const hoursEl = document.querySelector('span[data-hours]');
-// const daysEl = document.querySelector('span[data-days]');
-
 refs.btnStartEl.disabled = true;
 
 const options = {
